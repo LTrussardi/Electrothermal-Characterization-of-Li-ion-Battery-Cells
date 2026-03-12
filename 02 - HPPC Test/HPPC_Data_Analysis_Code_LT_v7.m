@@ -1709,7 +1709,7 @@ while not(exit) % Main window is continuously opened until one selects "Close"
                 set(gcf,'Color','white');
 
                 figure;
-                simulateHPPCTest(batteryEcmFM,hppcResult);
+                simulateHPPCTest(batteryEcmCF,hppcResult);
                 %title(['Simulate HPPC CURVEFIT - Test', fields{i}], 'Interpreter','none');
                 %grid on;
                 set(gcf,'Color','white');
@@ -2448,3 +2448,4 @@ while not(exit) % Main window is continuously opened until one selects "Close"
     end
 
 end
+
